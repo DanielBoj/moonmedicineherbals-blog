@@ -1,0 +1,49 @@
+{
+  "name": "moonmedicineherbals-blog",
+  "version": "1.0.0",
+  "description": "Microblogging website for Moon Medicine Herbals with MERN",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serverstart": "SET DEBUG=mmh:* & npm run devstart",
+    "start": "node bin/server.js",
+    "devstart": "nodemon bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielBoj/moonmedicineherbals-blog.git"
+  },
+  "keywords": [
+    "blog",
+    "microblogging",
+    "MERN",
+    "mongodb",
+    "node",
+    "express",
+    "react"
+  ],
+  "author": "Daniel Boj",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielBoj/moonmedicineherbals-blog/issues"
+  },
+  "homepage": "https://github.com/DanielBoj/moonmedicineherbals-blog#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
